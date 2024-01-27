@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration </title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("dandelion-445228_640.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form{
+    border-style:outset ;
+    
+    position:relative;
+    padding-left: 8%;
+    padding-top:9% ;
+    padding-bottom: 10%;
+    padding-right: 8%;
+    margin-top:25% ;
+    margin-bottom: 20%;
+    margin-left:30%;
+    margin-right: 30%;
+    font-size: 120%;
+    align-items: center;
+    background : linear-gradient(rgb(183, 236, 236),rgb(184, 224, 237)) ;
+    background: transparent;
+   }
+   .button{
+    font-size: 125%;
+    
+   }
+    </style>
+    <div class="form">
+    <form  action="/register" method="post">
+        <h2 >Registration Form</h2>
+        <label for="name" id="name">Username:</label>
+        <input type="text" required>
+    <br>
+        <label for="email" id="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password" id="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit" class="button">Register</button>
+      </form>
+    </div>
+</body>
+</html>
